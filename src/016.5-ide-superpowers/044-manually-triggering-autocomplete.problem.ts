@@ -1,19 +1,21 @@
 type MyObj = {
-  foo: string;
-  bar: number;
-  baz: boolean;
-};
+  foo: string
+  bar: number
+  baz: boolean
+}
 
-const acceptsObj = (obj: MyObj) => {};
+const acceptsObj = (obj: MyObj) => {}
 
 acceptsObj({
-  // Autocomplete in here!
-});
+  bar: 12,
+  baz: false,
+  foo: "blob",
+})
 
 document.addEventListener(
   // Autocomplete this string!
-  "",
+  "DOMContentLoaded",
   (event) => {
-    console.log(event);
-  },
-);
+    console.log(event)
+  }
+)
